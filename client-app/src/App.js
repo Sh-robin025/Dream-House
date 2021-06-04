@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import Home from "./Pages/Home";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -13,6 +12,6 @@ function App() {
       </Switch>
     </Router>
   );
-};
+}
 
 export default App;
