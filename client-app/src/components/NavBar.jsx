@@ -17,11 +17,11 @@ const NavBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Link href="/" className="nav-item"><b>Home</b></Link>
-                            <Link href="" className="nav-item"><b>About</b></Link>
-                            <Link href="" className="nav-item"><b>Service</b></Link>
-                            <Link href="" className="nav-item"><b>Concerns</b></Link>
-                            <Link href="" className="nav-item"><b>Event</b></Link>
-                            <Link href="" className="nav-item"><b>Contact</b></Link>
+                            <Link href="/" className="nav-item"><b>About</b></Link>
+                            <Link href="/" className="nav-item"><b>Service</b></Link>
+                            <Link href="/" className="nav-item"><b>Concerns</b></Link>
+                            <Link href="/" className="nav-item"><b>Event</b></Link>
+                            <Link href="/" className="nav-item"><b>Contact</b></Link>
                         </Nav>
                     </Navbar.Collapse>
                     <button>
