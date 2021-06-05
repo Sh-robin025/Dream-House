@@ -2,13 +2,13 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import HeroSection from "../components/HeroSection/HeroSection";
-import Service from "../components/Service/Service";
+import Products from "../components/Products/Product";
 
 const Home = () => {
   return (
     <div>
       <HeroSection></HeroSection>
-      <Service/>
+      <Products/>
       <Footer></Footer>
     </div>
   );

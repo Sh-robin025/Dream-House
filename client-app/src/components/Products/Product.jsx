@@ -1,6 +1,6 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import SingleService from "./SingleService";
+import SingleService from "./SingleProduct";
 import ServiceStyle from "../../Styles/HomePage/ServiceStyle";
 import data from '../../service.json';
 
