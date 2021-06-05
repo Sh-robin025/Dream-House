@@ -23,10 +23,10 @@ const NavBar = () => {
                             <Link href="" className="nav-item"><b>Event</b></Link>
                             <Link href="" className="nav-item"><b>Contact</b></Link>
                         </Nav>
+                        <button>
+                            <b>Login</b>
+                        </button>
                     </Navbar.Collapse>
-                    <button>
-                        <b>Login</b>
-                    </button>
                 </Container>
             </Navbar>
         </NaVBarStyle>
