@@ -11,7 +11,7 @@ const SingleService = ({ service }) => {
     // const dispatch = useDispatch()
 
     return (
-        <Col md={3} className="mt-4">
+        <Col md={3} className="mt-4 d-flex justify-content-center">
             <Card style={{ width: '16rem' }} className="card">
                 <Card.Img variant="top" src={image} className="img-fluid"
                     style={{ height: '160px' }} />

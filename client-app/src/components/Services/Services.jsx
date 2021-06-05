@@ -16,8 +16,8 @@ const Service = () => {
                 </b>
             </h2>
             <div className="serviceCard container">
-                <Row className="justify-content-between container">
-                    <Card className="col-md-4" style={{ width: '20rem' }}>
+                <Row className="justify-content-center">
+                    <Card className="col-md-4" style={{ width: '23rem' }}>
                         <div className="d-flex justify-content-center">
                             <Card.Img variant="top" src={apartment} className="img-fluid"
                                 style={{ height: '130px', width: '130px' }} />
@@ -30,7 +30,7 @@ const Service = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="col-md-4" style={{ width: '20rem' }}>
+                    <Card className="col-md-4" style={{ width: '23rem' }}>
                         <div className="d-flex justify-content-center">
                             <Card.Img variant="top" src={affordable} className="img-fluid"
                                 style={{ height: '130px', width: '130px' }} />
@@ -43,7 +43,7 @@ const Service = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="col-md-4" style={{ width: '20rem' }}>
+                    <Card className="col-md-4" style={{ width: '23rem' }}>
                         <div className="d-flex justify-content-center">
                             <Card.Img variant="top" src={lessee} className="img-fluid"
                                 style={{ height: '130px', width: '130px' }} />
