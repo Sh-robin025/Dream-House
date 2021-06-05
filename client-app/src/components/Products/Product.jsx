@@ -13,7 +13,7 @@ const Service = () => {
           <h2><b>Discover Your Choice</b></h2>
         </div>
         <Row>
-          {data.map(e => <SingleService service={e} key={e.id} />)}
+          {data.map(e => <SingleProduct service={e} key={e.id} />)}
         </Row>
       </div>
     </ServiceStyle>
