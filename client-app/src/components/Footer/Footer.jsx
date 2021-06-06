@@ -101,7 +101,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="copyright text-center">
-          © Team 2021, all rights reserved.
+          Dream House 2021 © all rights reserved.
         </p>
       </div>
     </footer>

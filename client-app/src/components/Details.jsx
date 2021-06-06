@@ -1,10 +1,9 @@
 import React from 'react';
-import DetailsPage from '../components/Details';
 
 const Details = () => {
     return (
         <div>
-            <DetailsPage/>
+            <h2>This is Details Page</h2>
         </div>
     );
 };

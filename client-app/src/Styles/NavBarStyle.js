@@ -18,6 +18,9 @@ const NavBarStyle = styled.div`
         padding: 5px 30px;
         background: #f47629;
         border-radius: 10px;
+        &: hover{
+            background: #fff;
+        }
     }
 `
 export default NavBarStyle;

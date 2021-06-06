@@ -1,14 +1,15 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import HeroSection from "../components/HeroSection/HeroSection";
-import Service from "../components/Service/Service";
+import Products from "../components/Products/Product";
+import Service from "../components/Services/Services";
 
 const Home = () => {
   return (
     <div>
-      {/* <h1>This is home page</h1> */}
       <HeroSection></HeroSection>
-      <Service></Service>
+      <Products />
+      <Service />
       <Footer></Footer>
     </div>
   );
