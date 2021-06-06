@@ -15,8 +15,11 @@ const Details = () => {
 
     return (
         <DetailsPageStyle>
+            <div className="cover text-light">
+                <h2>APARTMENT</h2>
+            </div>
             <Container>
-                <Row className="pb-5">
+                <Row className="my-5">
                     <Col md={8}>
                         <img src={image} alt="" style={{ width: '100%', height: '370px' }} />
                         <div className="d-flex justify-content-between mt-4">
@@ -52,8 +55,7 @@ const Details = () => {
                                 onChange={(e) => setBookingInfo({ ...bookingInfo, number: e.target.value })} />
                             <input type="text" name="email" placeholder="Email" required
                                 onChange={(e) => setBookingInfo({ ...bookingInfo, email: e.target.value })} />
-                            <input type="text" name="message" placeholder="Message" required
-                                onChange={(e) => setBookingInfo({ ...bookingInfo, message: e.target.value })} />
+                            <textarea type="text" name="message" placeholder="Message" rows="4" onChange={(e) => setBookingInfo({ ...bookingInfo, message: e.target.value })} />
                             <button type="submit"><b>Booking Request</b></button>
                         </form>
                     </Col>
