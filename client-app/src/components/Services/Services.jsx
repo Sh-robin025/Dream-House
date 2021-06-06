@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Card, Button } from "react-bootstrap";
+import { Row, Card } from "react-bootstrap";
 import apartment from "../../Images/apartment.png";
 import affordable from "../../Images/affordable.png";
 import lessee from "../../Images/lessee.png";

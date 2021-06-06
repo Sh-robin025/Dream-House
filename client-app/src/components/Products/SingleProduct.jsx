@@ -2,13 +2,19 @@ import React from 'react';
 import { Col, Card, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarked } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
-// import { useDispatch } from "react-redux";
-// import { addToCart } from '../../Redux/actions/cartAction';
+import { Link, useHistory } from 'react-router-dom';
+import { useDispatch } from "react-redux";
+import { productDetails } from '../../Redux/actions/actions';
 
-const SingleService = ({ service }) => {
-    const { image, title, location, price, id } = service;
-    // const dispatch = useDispatch()
+const SingleService = ({ product }) => {
+    const { image, title, location, price, id } = product;
+    const history = useHistory()
+    const dispatch = useDispatch()
+
+    const handleDetails = p => {
+        history.push(`/details/${p.id}`)
+        dispatch(productDetails(p))
+    }
 
     return (
         <Col md={3} className="mt-4 d-flex justify-content-center">
@@ -22,9 +28,8 @@ const SingleService = ({ service }) => {
                     </Card.Text>
                     <div className="d-flex justify-content-between align-items-center">
                         <h5><b>$ {price}</b></h5>
-                        <Link to={`/details/${id}`}>
-                            <button><b>Details</b></button>
-                        </Link>
+                        <button onClick={() => handleDetails(product)}><b>Details</b></button>
+
                     </div>
                 </Card.Body>
             </Card>

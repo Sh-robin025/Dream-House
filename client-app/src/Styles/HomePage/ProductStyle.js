@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ServiceStyle = styled.div`
+const ProductStyle = styled.div`
 background:gray;
 .card{
     border:none;
@@ -13,4 +13,4 @@ background:gray;
 }
     
 `
-export default ServiceStyle;
+export default ProductStyle;

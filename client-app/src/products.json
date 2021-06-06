@@ -4,83 +4,107 @@
         "image": "https://i.ibb.co/HphnrsB/Rectangle-394.png",
         "title": "Washington Avenue",
         "location": "534/3 mirpur-1,Dhaka",
-        "price": 199
+        "price": 199,
+        "size": 3000,
+        "floor": "A5 (5th Floor), South Facing Unit"
     },
     {
         "id": 102,
         "image": "https://i.ibb.co/4ZK6Nc9/Rectangle-407.png",
         "title": "White House",
         "location": "5/33 mirpur-10,Dhaka",
-        "price": 276
+        "price": 276,
+        "size": 4000,
+        "floor": "B5 (4th Floor), North Facing Unit"
     },
     {
         "id": 103,
         "image": "https://i.ibb.co/GdH93xZ/Rectangle-410.png",
         "title": "Luxury Villa",
         "location": "34/35 mirpur-2,Dhaka",
-        "price": 321
+        "price": 321,
+        "size": 2000,
+        "floor": "A5 (7th Floor), South Facing Unit"
     },
     {
         "id": 104,
         "image": "https://i.ibb.co/qJxL6zQ/Rectangle-398.png",
         "title": "House 360",
         "location": "5/30 mirpur-11,Dhaka",
-        "price": 303
+        "price": 303,
+        "size": 1000,
+        "floor": "A5 (5th Floor), South Facing Unit"
     },
     {
         "id": 105,
         "image": "https://i.ibb.co/3TP4cbQ/Rectangle-396.png",
         "title": "Gorgeous House",
         "location": "67/98 gulshan-2,Dhaka",
-        "price": 209
+        "price": 209,
+        "size": 2500,
+        "floor": "A5 (5th Floor), South Facing Unit"
     },
     {
         "id": 106,
         "image": "https://i.ibb.co/WFZWwSC/Rectangle-403.png",
         "title": "Huda Palacio",
         "location": "89/3 banani,Dhaka",
-        "price": 219
+        "price": 219,
+        "size": 1500,
+        "floor": "C5 (2nd Floor), South Facing Unit"
     },
     {
         "id": 107,
         "image": "https://i.ibb.co/pyv5XQW/Rectangle-404.png",
         "title": "The Bungalow",
         "location": "23/98 uttara,Dhaka",
-        "price": 139
+        "price": 139,
+        "size": 2200,
+        "floor": "B5 (5th Floor), South Facing Unit"
     },
     {
         "id": 108,
         "image": "https://i.ibb.co/qJvVR2n/Rectangle-405.png",
         "title": "Orchard House",
         "location": "5/56 airport,Dhaka",
-        "price": 269
+        "price": 269,
+        "size": 3000,
+        "floor": "A4 (6th Floor), South Facing Unit"
     },
     {
         "id": 109,
         "image": "https://i.ibb.co/4ZK6Nc9/Rectangle-407.png",
         "title": "Mill House",
         "location": "87/3 house-building,Dhaka",
-        "price": 179
+        "price": 179,
+        "size": 2800,
+        "floor": "A5 (5th Floor), West Facing Unit"
     },
     {
         "id": 110,
         "image": "https://i.ibb.co/kGFX12Q/Rectangle-408.png",
         "title": "Honeysuckle Cottage",
         "location": "11/9 savar,Dhaka",
-        "price": 399
+        "price": 399,
+        "size": 2600,
+        "floor": "A5 (4th Floor), East Facing Unit"
     },
     {
         "id": 111,
         "image": "https://i.ibb.co/NTcgwF4/Rectangle-409.png",
         "title": "The Laurels",
         "location": "43/7 ring-road,Dhaka",
-        "price": 189
+        "price": 189,
+        "size": 1800,
+        "floor": "A2 (5th Floor), North Facing Unit"
     },
     {
         "id": 112,
         "image": "https://i.ibb.co/GdH93xZ/Rectangle-410.png",
         "title": "Lilac Cottage",
         "location": "53/9 mirpur-10,Dhaka",
-        "price": 299
+        "price": 299,
+        "size": 2000,
+        "floor": "A5 (5th Floor), South Facing Unit"
     }
 ]
