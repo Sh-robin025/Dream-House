@@ -1,13 +1,12 @@
 import React, { useContext } from "react";
-import { useForm } from "react-hook-form";
-// import { UserContext } from "../../../App";
 // import Navigation from "../../Shared/Navigation/Navigation";
 import DashboardNav from "../DashboardNav/DashboardNav";
 
 const Reviews = () => {
-  // const [loggedInUser] = useContext(UserContext);
 
-  const { register, handleSubmit, reset } = useForm();
+  // const { register, handleSubmit, reset } = useForm();
+  const [review, setReview] = useState({})
+
   const onSubmit = (data) => {
     // const eventData = {
     //   title: data.title,
@@ -42,14 +41,14 @@ const Reviews = () => {
               className="form-control"
               placeholder="Title"
               type="text"
-              {...register("title", { required: true })}
+              onChange={(e) => setReview({ ...review, title: e.target.value })}
             />
             <br />
             <textarea
               className="form-control"
               placeholder="Type Your Message"
               type="text"
-              {...register("message", { required: true })}
+              onChange={(e) => setReview({ ...review, message: e.target.value })}
             />
             <br />
             <input className="btn btn-primary" value="Review" type="submit" />
