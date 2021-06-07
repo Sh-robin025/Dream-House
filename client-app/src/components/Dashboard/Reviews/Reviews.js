@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-// import Navigation from "../../Shared/Navigation/Navigation";
 import DashboardNav from "../DashboardNav/DashboardNav";
 
 const Reviews = () => {
-
-  // const { register, handleSubmit, reset } = useForm();
   const [review, setReview] = useState({})
 
   const handleSubmit = (data) => {
