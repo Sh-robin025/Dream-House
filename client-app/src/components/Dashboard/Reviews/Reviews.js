@@ -1,30 +1,31 @@
 import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { UserContext } from "../../../App";
+// import { UserContext } from "../../../App";
 // import Navigation from "../../Shared/Navigation/Navigation";
 import DashboardNav from "../DashboardNav/DashboardNav";
 
 const Reviews = () => {
-  const [loggedInUser] = useContext(UserContext);
+  // const [loggedInUser] = useContext(UserContext);
 
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
-    const eventData = {
-      title: data.title,
-      message: data.message,
-      user: { ...loggedInUser },
-    };
-    const url = `/`;
-    fetch(url, {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(eventData),
-    }).then((res) => console.log("server side response", res));
-    alert("Thank You for giving us such a wonderful review.");
-    reset({});
+    // const eventData = {
+    //   title: data.title,
+    //   message: data.message,
+    //   user: { ...loggedInUser },
+    // };
+    // const url = `/`;
+    // fetch(url, {
+    //   method: "POST",
+    //   headers: {
+    //     "content-type": "application/json",
+    //   },
+    //   body: JSON.stringify(eventData),
+    // }).then((res) => console.log("server side response", res));
+    // alert("Thank You for giving us such a wonderful review.");
+    // reset({});
   };
+
   return (
     <div>
       {/* <Navigation></Navigation> */}

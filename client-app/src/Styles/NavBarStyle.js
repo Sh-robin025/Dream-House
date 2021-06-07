@@ -22,5 +22,8 @@ const NavBarStyle = styled.div`
             background: #fff;
         }
     }
+    img{
+        height: 40px;
+    }
 `
 export default NavBarStyle;

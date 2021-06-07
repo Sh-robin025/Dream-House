@@ -3,6 +3,7 @@ import apartment from "../../Images/apartment.png";
 import affordable from "../../Images/affordable.png";
 import lessee from "../../Images/lessee.png";
 import "./Service.css";
+
 const Service = () => {
   return (
     <div id="service">
