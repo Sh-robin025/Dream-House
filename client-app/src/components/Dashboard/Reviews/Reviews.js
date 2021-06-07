@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useState } from "react";
 // import Navigation from "../../Shared/Navigation/Navigation";
 import DashboardNav from "../DashboardNav/DashboardNav";
 
@@ -7,7 +7,7 @@ const Reviews = () => {
   // const { register, handleSubmit, reset } = useForm();
   const [review, setReview] = useState({})
 
-  const onSubmit = (data) => {
+  const handleSubmit = (data) => {
     // const eventData = {
     //   title: data.title,
     //   message: data.message,
@@ -36,7 +36,7 @@ const Reviews = () => {
         <div className="col-md-4">
           <h1 className="text-center highlight">Give us a Review</h1>
 
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form onSubmit={handleSubmit(review)}>
             <input
               className="form-control"
               placeholder="Title"
@@ -51,7 +51,7 @@ const Reviews = () => {
               onChange={(e) => setReview({ ...review, message: e.target.value })}
             />
             <br />
-            <input className="btn btn-primary" value="Review" type="submit" />
+            <button className="btn btn-primary" type="submit">Review</button>
           </form>
         </div>
       </div>

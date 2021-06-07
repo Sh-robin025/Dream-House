@@ -5,13 +5,13 @@ import "./DashboardNav.css";
 const DashboardNav = () => {
   const [isMembers, setIsMembers] = useState(false);
   useEffect(() => {
-    fetch("https://electrzoid.herokuapp.com/ismember", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ email: loggedInUser?.email }),
-    })
-      .then((res) => res.json())
-      .then((data) => setIsMembers(data));
+    // fetch("https://electrzoid.herokuapp.com/ismember", {
+    //   method: "POST",
+    //   headers: { "content-type": "application/json" },
+    //   body: JSON.stringify({ email: loggedInUser?.email }),
+    // })
+    //   .then((res) => res.json())
+    //   .then((data) => setIsMembers(data));
   }, []);
 
   return (
